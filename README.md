@@ -16,5 +16,6 @@ This is a minimal SOCKS5 proxy server implemented in Node.js using only standard
 2. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/socks5-proxy.git
+git clone https://github.com/janushan12/Proxy-Infrastructure-SOCKS5-.git
 cd socks5-proxy
+node server.js
