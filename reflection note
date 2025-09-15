@@ -1,0 +1,5 @@
+During this project, I learned how the SOCKS5 protocol works at a low level, including handshake, authentication, and CONNECT command tunneling. I also deepened my understanding of TCP sockets in Node.js and how to handle bidirectional streaming between client and target servers.
+
+Debugging required careful attention to the byte-level protocol. Initially, curl returned errors like Undocumented SOCKS5 mode attempted to be used by server. By reviewing the SOCKS5 RFC and comparing the expected handshake bytes, I was able to adjust my server responses to be fully compliant. Adding detailed logging of client connections, authentication attempts, and target connections helped pinpoint problems quickly.
+
+If given more time, I would improve the proxy by adding IPv6 support, configurable multiple users, connection limits, and proper error messages for all SOCKS5 response codes. Additionally, I could implement logging statistics and a small web interface for monitoring active connections and traffic.
